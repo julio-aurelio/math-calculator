@@ -154,24 +154,26 @@ footer {
 
 .fakeimg {
   width: 68%;
-  height: 40%;
+  height: 60%;
   border-radius: 10px;
 }
 
 .fakeimg img {
   width: 100%;
+  height: 200px;
   border-radius: 10px;
 }
 
 .fakeimgEspecial {
-  width: 550px;
-  height: 60%;
+  width: 68%;
+  height: 47%;
   border-radius: 10px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 .fakeimgEspecial img {
   width: 95%;
+  height: 390px;
   border-radius: 10px;
 }
 
