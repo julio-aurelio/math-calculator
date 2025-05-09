@@ -75,11 +75,11 @@ main {
 .esquerdaSuperior {
   display: flex;
   width: 46%;
-  height: 635px;
+  height: 735px;
   background-color: rgb(240, 240, 240);
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
@@ -121,7 +121,8 @@ main {
 
 .escritaPrincipal1 {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 25px;
+  margin-bottom: -45px;
   color: #000000;
   background-color: rgb(240, 240, 240);
   width: 90%;
@@ -177,7 +178,7 @@ footer {
 .tabeladaFigura {
   width: 70%;
   background-color: rgb(240, 240, 240);
-  height: 610px;
+  height: 710px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
