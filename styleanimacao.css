@@ -1,0 +1,185 @@
+
+
+.Direitos {
+  font-size: larger;
+  color: #ffffff;
+}
+
+
+
+.social-menu {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+}
+
+.social-menu ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  gap: 20px;
+  margin-left: 60%;
+}
+
+.social-menu ul li {
+  list-style: none;
+  margin: 0;
+}
+
+.social-menu ul li .fa {
+  color: #000000;
+  font-size: 25px;
+  line-height: 50px;
+  transition: .5s;
+}
+
+.social-menu ul li .fa:hover {
+  color: #ffffff;
+}
+
+.social-menu ul li a {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  transition: 0.5s;
+  transform: translate(0,0px);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+}
+
+.social-menu ul li a:hover {
+  transform: translate(0, -10px);
+}
+
+.social-menu img {
+  border-radius: 50%;
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
+}
+
+
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #5865F2; 
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #ffffff; 
+}
+
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #FF0000; 
+}
+
+  
+
+
+
+
+
+
+
+
+/*NAVEGAÇÃO*/
+
+  li, a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+  }
+  .logo{
+    cursor: pointer;
+  }
+  .navegacao_links{
+    list-style: none;
+  }
+
+  .navegacao_links li{
+    display: inline-block;
+    padding: 0px 20px;
+
+  }
+  .navegacao_links li{
+    transition: all 0.3s ease 0s;
+  }
+
+  .navegacao_links li a:hover{
+    color: #5a92c8;
+  }
+
+ 
+
+  .prismas {
+    width: 100%;
+    height: 100%;
+    padding: 7px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+
+  button {
+    background-color: rgba(35, 65, 120, 0.85);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: larger;
+  }
+  
+  button:hover {
+    background-color: #5a92c8;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+
+
+
+
+
+
+
+  /*Noticias Animações*/
+
+
+
+
+  .esquerdaSuperior:hover{
+    transform: scale(1.02);
+      transition: 1.3s;
+
+ }
+
+
+  
+
+
+  
+  
+
+
